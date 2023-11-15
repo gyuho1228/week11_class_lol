@@ -30,7 +30,7 @@ void LOL::f2() {
 	delete[] f2d;
 	xx.close();
 }
-void LOL::f3(string ss) {
+void LOL::f3(string ss) {	//binary파일을 읽어서 cout 하기
 
 	int* a;
 	float* b;
