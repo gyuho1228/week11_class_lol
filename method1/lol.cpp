@@ -38,7 +38,7 @@ void LOL::f2() {
 	delete[] f2d;
 	xx.close();
 }
-void LOL::f3(string ss) {
+void LOL::ff(string ss) {
 
 	int* a;
 	float* b;
