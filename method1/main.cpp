@@ -28,22 +28,22 @@ int main() {
 	l1.f0("akali.bin");
 	l1.f1();
 	l1.f2();
-	l1.f3("akali.bin");	//cout으로 확인
+	l1.ff("akali.bin");	//cout으로 확인
 
 	l2.f0("amumu.bin");
 	l2.f1();
 	l2.f2();
-	l2.f3("amumu.bin");
+	l2.ff("amumu.bin");
 
 	l3.f0("annie.bin");
 	l3.f1();
 	l3.f2();
-	l3.f3("annie.bin");
+	l3.ff("annie.bin");
 
 	l4.f0("ashe.bin");
 	l4.f1();
 	l4.f2();
-	l4.f3("ashe.bin");
+	l4.ff("ashe.bin");
 	return 10;
 
 
