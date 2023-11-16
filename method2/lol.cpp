@@ -2,9 +2,6 @@
 #include<fstream>
 #include "lol.h"
 
-
-
-
 void LOL::f0(string ss) {
 	xx.open(ss, ios::binary | ios::out);
 	xx.write((char*)&N1, sizeof(int));
@@ -20,10 +17,10 @@ void LOL::f1() {
 
 
 	int j = 0;
-	for (int i = N1; i < N2 + 1; i++, j++) {
+	for (int i = N1; i < N2 +1; i++, j++) {
 		f1d[j] = (i * (i + 1)) / 2;
 	}
-	xx.write((char*)f1d, sizeof(int)*(N2-N1+1));
+	xx.write((char*)f1d, sizeof(int) * (N2 - N1 + 1));
 }
 
 void LOL::f2() {
@@ -33,7 +30,7 @@ void LOL::f2() {
 	for (int i = 0; i < m; i++, x += dx) {
 		f2d[i] = a * x + b;
 	}
-	xx.write((char*)f2d, sizeof(float)*m);
+	xx.write((char*)f2d, sizeof(float) * m);
 	xx.close();
 }
 
